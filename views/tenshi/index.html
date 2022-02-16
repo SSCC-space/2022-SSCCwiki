@@ -32,7 +32,10 @@
             <div id="top">
                 <div id="top_main">
                     <div id="logo">
+                        <!--
                         <a href="/" class="top_in_cel">{{imp[1][4]|safe}}</a>
+                    -->
+                        <a href="/" class="top_in_cel">SSCC Wiki</a>
                     </div>
                     <div id="top_tool">
                         <div id="top_tool_group">
@@ -131,33 +134,18 @@
                 <div id="main_top">
                     {% if menu != 0 %}
                         <div id="tool" class="not_mobile">
-                            {% if menu[0] == 1 %}
-                                {% for sub_d in menu %}
-                                    <div id="tool_cel">
-                                        {% if sub_d|length > 2 and sub_d[2] == 1 %}
-                                            <a class="menu-item" href="{{sub_d[0]}}" id="topic_color">{{sub_d[1]}}</a>
-                                        {% else %}
-                                            <a class="menu-item" href="{{sub_d[0]}}">{{sub_d[1]}}</a>
-                                        {% endif %}
-                                    </div>
-                                    {% if menu[loop.index] %}
-                                        |
+                            {% for sub_d in menu %}
+                                <div id="tool_cel">
+                                    {% if sub_d|length > 2 and sub_d[2] == 1 %}
+                                        <a class="menu-item" href="/{{sub_d[0]}}" id="topic_color">{{sub_d[1]}}</a>
+                                    {% else %}
+                                        <a class="menu-item" href="/{{sub_d[0]}}">{{sub_d[1]}}</a>
                                     {% endif %}
-                                {% endfor %}
-                            {% else %}
-                                {% for sub_d in menu %}
-                                    <div id="tool_cel">
-                                        {% if sub_d|length > 2 and sub_d[2] == 1 %}
-                                            <a class="menu-item" href="/{{sub_d[0]}}" id="topic_color">{{sub_d[1]}}</a>
-                                        {% else %}
-                                            <a class="menu-item" href="/{{sub_d[0]}}">{{sub_d[1]}}</a>
-                                        {% endif %}
-                                    </div>
-                                    {% if menu[loop.index] %}
-                                        |
-                                    {% endif %}
-                                {% endfor %}
-                            {% endif %}
+                                </div>
+                                {% if menu[loop.index] %}
+                                    |
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     {% endif %}
                     <h1 id="title">
