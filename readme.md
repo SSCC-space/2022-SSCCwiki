@@ -4,6 +4,7 @@
 [![라이선스](https://img.shields.io/badge/license-BSD%203--Clause-lightgrey.svg)](./LICENSE)
 
 ![](https://raw.githubusercontent.com/openNAMU/openNAMU/beta/.github/logo.png)
+
 SSCC wiki는 [openNAMU 엔진](https://github.com/openNAMU/openNAMU)을 fork하여 만들어진 숭실대학교 중앙 컴퓨터 동아리의 위키입니다.
 
 opennamu의 BSD 3-Clause License를 준수하기 위해 하기 항목은 오픈나무의 readme.md를 그대로 옮겨왔습니다.
