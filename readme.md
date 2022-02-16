@@ -3,7 +3,7 @@
 [![Python 3.6 이상](https://img.shields.io/badge/python->=%203.6-blue.svg)](https://python.org)
 [![라이선스](https://img.shields.io/badge/license-BSD%203--Clause-lightgrey.svg)](./LICENSE)
 
-![](https://raw.githubusercontent.com/openNAMU/openNAMU/beta/.github/logo.png)
+![](https://user-images.githubusercontent.com/84006880/154207453-7ed87813-5d9e-43ab-9076-73410d49ab61.png)
 
 SSCC wiki는 [openNAMU 엔진](https://github.com/openNAMU/openNAMU)을 fork하여 만들어진 숭실대학교 중앙 컴퓨터 동아리의 위키입니다.
 
